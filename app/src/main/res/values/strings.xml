@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DoctorFinder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="name_list">
+        <item>John</item>
+        <item>Emily</item>
+        <item>Michael</item>
+        <item>Sarah</item>
+        <item>Jessica</item>
+    </string-array>
+</resources>
