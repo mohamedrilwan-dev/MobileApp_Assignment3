@@ -34,10 +34,10 @@ class InputFragment : Fragment() {
 
             fragmentManager?.beginTransaction()
                 ?.setCustomAnimations(
-                    R.anim.slide_in_right,  // Enter animation
-                    R.anim.slide_out_left,  // Exit animation
-                    R.anim.slide_in_left,   // Pop enter animation
-                    R.anim.slide_out_right  // Pop exit animation
+                    R.anim.slide_in_right,
+                    R.anim.slide_out_left,
+                    R.anim.slide_in_left,
+                    R.anim.slide_out_right
                 )
                 ?.replace(R.id.fragment_container, resultFragment)
                 ?.addToBackStack(null)

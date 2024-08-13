@@ -46,7 +46,6 @@ class ResultFragment : Fragment() {
             if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(requireActivity(), arrayOf(Manifest.permission.POST_NOTIFICATIONS), REQUEST_CODE_NOTIFICATION_PERMISSION)
             } else {
-                // Permission granted, show notification
                 createNotificationChannel()
                 showNotification(result)
             }
@@ -95,7 +94,6 @@ class ResultFragment : Fragment() {
             if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.VIBRATE) == PackageManager.PERMISSION_GRANTED) {
                 notify(notificationId, builder.build())
             } else {
-                // Handle case where vibration permission is not granted
                 builder.setVibrate(null)
                 notify(notificationId, builder.build())
             }
@@ -115,7 +113,6 @@ class ResultFragment : Fragment() {
                 val result = "Text: $receivedText\nNumber: $receivedNumber"
                 showNotification(result)
             } else {
-                // Permission denied, handle accordingly
             }
         }
     }
