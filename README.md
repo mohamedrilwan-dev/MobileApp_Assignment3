@@ -2,19 +2,21 @@
 
 Doctors list hardcoded in string.xml file.
 
-Random number generator will find a radom doctor from the list(Assumption for experiment).
+Random number generator will find a random doctor from the string list(Assumption for experiment).
 
 #Find the Screenshots
-1. Home Screen
+1. Home Screen(Activity 1)
    
-![image](https://github.com/user-attachments/assets/0d2a66f1-c7fc-446e-8d42-047d4fa86207)
+![image](https://github.com/user-attachments/assets/72a2a302-6064-4eeb-9c69-3b96f40407a2)
 
-3. Appointment Confirmation Screen
+2. Result Screen(Activity 2)
    
-![image](https://github.com/user-attachments/assets/67eb822b-0678-44c5-b74d-5310e24f8693)
+![image](https://github.com/user-attachments/assets/452ad942-d9aa-44c2-9d2a-a43f91089999)
 
-5. Notification Screen
+
+3. Notification Screen
    
-![image](https://github.com/user-attachments/assets/577f5649-5735-46a5-bc37-2b8909cbce91)
+![image](https://github.com/user-attachments/assets/9caaa93e-2bec-4b90-9b4e-c057319a70fb)
+
 
 
